@@ -1,0 +1,334 @@
+/*----------Author---------
+
+
+Name:Sohanor Rahman;
+Gmail:shovons828@gmail.com;
+
+
+*/
+/*=========Index============
+
+1.Home
+2. About Us
+3. Our Services  
+4. Prices  
+5.Contact
+
+
+*/
+/*--------Global css-------*/
+h1,h2,h3,h4,h6{
+
+}
+p{
+
+}
+img{
+
+}
+.no-padding{
+	padding: 0px;
+}
+
+/*-----------Custom-Main-css Start----------*/
+.custom-nav-icon-color{
+	color: #fff;
+}
+.navbar-custom-main{
+	
+}
+.custom-top-part-main{
+	background-color: #0a2345;
+}
+.custom-text-color li{
+	text-align: center;
+}
+.custom-text-color a{
+	color: #fff!important;
+}
+.custom-nav-icon-color{
+	color: #285a9e!important;
+}
+.top-header-contant{
+	text-align: center;
+}
+.custom-top-part-main h1{
+	color: #fff;
+	text-align: center;
+	margin:200px 0px 50px;
+}
+.coeluso{
+	color: #285a9e;
+}
+.custom-top-part-main p{
+	color: #285a9e;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.custom-btn1{
+	border: 2px solid #285a9e;
+	padding: 10px 25px;
+	border-radius: 12px;
+	text-decoration: none;
+	color: #fff;
+}
+.phone-background-parant{
+	position: absolute;
+	width: 96%;
+	padding-top: 180px;
+	opacity: .6;
+}
+.phone-child{
+	position: relative;
+	width: 70%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: 0 auto;
+}
+.phone-child-width{
+	width: 50%;
+	padding-top: 155px;
+}
+.phone-child-left{
+	left: 50%;
+}
+.phone-child-right{
+	right: 30%;
+}
+/*--------HEadphone-part--------*/
+.headphone-part h4{
+	color: #fff;
+	font-size: 25pt;
+	margin-top: 80px;
+}
+.headphone-part p{
+	color: #4f627b;
+	text-align: justify;
+	margin-top: 30px;
+}
+.headphone-part img{
+	width: 100%;
+	margin-bottom: 100px;
+}
+.headphone-right-side{
+	width: 95%;
+}
+.head-phone-btn{
+	padding: 8px 25px;
+	border: 2px solid #153b6d;
+	border-radius: 20px;
+	margin-bottom: 100px;
+}
+/*-------------feature part start-----------*/
+.custom-feature-part-main{
+	background-color: #0A2345;
+}
+.custom-feature-part-main h4{
+	text-align: center;
+	font-size: 26pt;
+	color: #fff;
+	padding: 100px 0px 70px 0px;
+}
+.feture-parant-img{
+	position: absolute;
+	width: 95%;
+    margin-top: 500px;
+    opacity: .2;
+    margin-top: 105%;
+}
+.feture-child-img{
+	position: relative;
+	width: 72%;
+    margin: 0px 0px 70px 55px;
+}
+.custom-feature-part-main h6{
+	color: #fff;
+	padding: 30px 0px 20px 0px;
+}
+.custom-feature-part-main p{
+	color: #43546c;
+	text-align: justify;
+}
+.sec-section-part{
+	background-color: #0A2345;
+}
+.sec-left-side-part{
+	width: 90%;
+	margin:0 auto;
+}
+.sec-left-side-part{
+	margin-top: 100px;
+}
+.left-side-part h4{
+	color: #fff;
+	padding: 40px 0px 40px 0px;
+}
+.left-side-part p{
+	color: #b8c3d1;
+}
+.custom-right-side{
+	width: 100%;
+	padding: 0px;
+}
+.right-side-part-image{
+	width: 100%;
+	margin-top: 100px;
+}
+/*------------slider part start--------*/
+.slider-main-part{
+	background-color: #0a2345;
+
+}
+.slider-main-part img{
+	opacity: .3;
+}
+.custom-slide-bar{
+	width: 100%;
+	padding: 0px;
+	margin-top: 70px;
+	margin-bottom: 0px;
+}
+/*---------------------discover part start-----------*/
+.last-part-main{
+	background-color: #030912;
+	text-align: center;
+}
+.last-part-main h1{
+	padding:70px 0px 20px 0px;
+	text-align: center;
+	color: #fff;
+}
+.last-part-main p{
+	text-align: center;
+	color: #64758c;
+	
+}
+.last-part-main img{
+	opacity: 0.3;
+	display: block;
+	margin:0 auto;
+	margin-top: 50px;
+	width: 50%;
+}
+.last-part-btn{
+	padding: 8px 20px;
+	background-color: transparent;
+	border: 1px solid blue;
+	border-radius: 10px;
+	color: #fff;
+	margin:60px 0px;
+}
+/*---------footer part start--------------*/
+footer{
+	background-color: #010103!important;
+}
+footer ul{
+	list-style: none;
+	padding: 40px 0px 40px 0px;
+}
+footer li{
+	display: inline;
+	color: #14396a;
+	font-size: 18pt;
+	padding: 0px 10px;
+}
+footer p{
+	float: right;
+	padding: 40px 0px 40px 0px;
+}
+/*----------------Midea quarity-------------*/
+@media(min-width: 300px) and (max-width: 720px){
+	.custom-top-part-main h1{
+		font-size: 20pt;
+	}
+	.phone-background-parant{
+		width: 95%;
+		margin-top: 65px;
+	}
+	.phone-child-left{
+		width: 50%;
+		left: 25%;
+		padding-top: 30px;
+		padding-bottom: 0px;
+
+	}
+	.phone-child-center{
+		padding-top: 20px;
+		padding-bottom: 0px;
+		width: 50%;
+		left: 25%;
+	}
+	.phone-child-right{
+		width: 50%;
+		padding-bottom: 40px;
+		left: 25%;
+		padding: 20px 0px;
+	}
+	/*----------Headphone part start-------*/
+	.headphone-part{
+		text-align: center;
+	}
+	.headphone-part img{
+		width: 80%;
+		padding-top: 40px;
+		margin-bottom: 0px;
+	}
+	.headphone-right-side h4{
+		font-size: 20pt;
+		text-align: center;
+		padding: 15px 0px;
+	}
+	.headphone-right-side p{
+		font-size: 16pt;
+		text-align: center;
+
+	}
+	/*--------feature part start--------*/
+	.custom-feature-part-main{
+		text-align: center;
+	}
+	.custom-feature-part-main h4{
+		margin-top: 40px;
+		padding: 14px 0px;
+	}
+	.feture-parant-img{
+		width: 50%;
+		margin-top: 78%;
+		left: 30%;
+
+	}
+	.feture-child-img{
+		width: 50%;
+	}
+	.left-side-part img{
+		display: inline-block;
+		float: left;
+		margin-top: 25px;
+		padding-right: 7px;
+	}
+	.left-side-part h4{
+		font-size: 20pt;
+		margin-top: 10px;
+	}
+	.right-side-part-image{
+		width: 95%;
+		float: right;
+		margin-top: 30px;
+	}
+	/*--------footer part start-------*/
+	footer{
+		text-align: center;
+	}
+	footer ul{
+		padding: 10px 0px;
+		float: left;
+	}
+	footer li{
+		font-size:15pt;
+	}
+	footer p{
+		float: left;
+		padding: 10px 0px;
+
+	}
+}
